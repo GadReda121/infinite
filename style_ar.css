@@ -50,18 +50,18 @@
     border-radius: 5px 5px 0 0;
 }
 .payment .content{
-    padding: .3rem 1.5rem;
+    padding: .3rem .7rem;
 }
 .payment .content h2{
     color: var(--pay-text);
-    font-weight: 100;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
 .payment .content h2 span{
     color: var(--pay-text);
-    font-weight: 100;
+    font-weight: 400;
     text-align: center;
     display: flex;
     align-items: center;
@@ -105,7 +105,7 @@
     margin-bottom: 0rem;
 }
 .payment .Amazon span{
-    font-weight: lighter;
+    font-weight: 400;
     margin-top: -7px;
     font-size: 18px;
     margin-right: 80px;
@@ -162,19 +162,25 @@ form .success img{
     margin: 1rem auto;
 }
 form .success .TransactionNum{
-    margin-top: .5rem;
-    margin-bottom: .2rem;
+    margin-top: 0rem;
+    margin-bottom: -.1rem;
 }
 form .success .TransactionNum h3{
     color: var(--gold-color);
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 .inCorrect{
     margin-top: .5rem !important;
     margin-bottom: .5rem !important;
 }
-
+.fail form{
+    grid-gap: 3.5rem !important;
+}
+.fail img{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
 @media screen and (max-width:400px){
     .parent{
         padding: .5rem;
