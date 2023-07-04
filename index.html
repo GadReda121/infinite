@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <!-- Title -->
+    <title>Payment</title>
+    <!-- Link -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="parent">
+        <div class="payment">
+            <div class="image">
+                <img src="images/logo.jpg" alt="Logo Image" />
+            </div>
+            <!-- content -->
+            <div class="content">
+                <!-- Form -->
+                <form action="">
+                    <div class="title">
+                        <h1>Payment Amount <br />
+                            <span>
+                                <input type="text" placeholder="00.00" required />
+                                SAR
+                            </span>
+                        </h1>
+                    </div>
+                    <div class="imgInput">
+                        <input type="text" placeholder="Cardholder Name" required/>
+                        <img src="images/person.png" alt="Cardholder" />
+                    </div>
+                    <div class="imgInput">
+                        <input type="text" data-mask="0000 0000 0000 0000" placeholder="Card Number" required/>
+                        <img src="images/credit-card.png" alt="Card Number" />
+                    </div>
+                    <div class="card">
+                        <div class="imgInput">
+                            <input type="text" name="expiry-data"  placeholder="MM/YY" required/>
+                            <img src="images/calendar1.png" alt="expiry-data" />
+                        </div>
+                        <div class="imgInput">
+                            <input type="text" data-mask="000" placeholder="CVC" required />
+                            <img src="images/padlock.png" alt="expiry-data" />
+                        </div>
+                    </div>
+                    <!-- Btn -->
+                    <div class="submit">
+                        <button type="submit">Pay</button>
+                    </div>
+                    <!-- LOGO Amazon -->
+                    <div class="Amazon">
+                        <span>Powered by</span>
+                        <img src="images/Amazon-Payment-Services_Logo_copy.jpg" alt="Amazon" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
