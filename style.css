@@ -167,7 +167,7 @@ form .success .text span{
 }
 form .success img{
     width: 25%;
-    margin: 1rem auto;
+    margin: .5rem auto;
 }
 form .success .TransactionNum{
     margin-top: .5rem;
