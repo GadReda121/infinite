@@ -81,6 +81,7 @@
     border: 1px solid #eee;
     outline: none;
     padding: 0 70px 0 20px;
+    font-size: 20px;
 }
 .payment .imgInput{
     position: relative;
