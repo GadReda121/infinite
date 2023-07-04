@@ -41,12 +41,11 @@
     width: 100%;
     border-radius: 5px 5px 0 0;
     justify-content: center;
-    height: 80px;
     overflow: hidden;
+    height: 80px;
 }
 .payment .image img{
     width: 40%;
-    /* transform: scale(2,2); */
     border-radius: 5px 5px 0 0;
 }
 .payment .content{
