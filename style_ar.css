@@ -14,6 +14,7 @@
     transition: .2s all;
     font-family: 'Roboto', sans-serif;
     word-break: break-all;
+    direction: rtl;
 }
 .parent{
     display: grid;
@@ -90,7 +91,7 @@
     border-radius: 5px;
     border: 1px solid #eee;
     outline: none;
-    padding: 0 20px 0 70px;
+    padding: 0 70px 0 20px;
 }
 .payment .imgInput{
     position: relative;
@@ -98,7 +99,7 @@
 .payment .imgInput img{
     width: 45px;
     position: absolute;
-    left: 15px;
+    right: 15px;
     top: 8px;
 }
 .payment form .card{
@@ -117,7 +118,7 @@
     font-weight: lighter;
     margin-top: -7px;
     font-size: 18px;
-    margin-left: 80px;
+    margin-right: 80px;
 }
 .payment .Amazon img{
     mix-blend-mode: darken;
@@ -161,6 +162,7 @@ form .success .text{
 }
 form .success b{
     font-weight: 700;
+    direction: ltr;
 }
 form .success .text span{
     font-weight: 400;
