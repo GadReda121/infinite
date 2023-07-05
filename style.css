@@ -186,34 +186,3 @@ form .success .TransactionNum h3{
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
 }
-@media screen and (max-width:400px){
-    .parent{
-        padding: .5rem;
-    }
-    .payment{
-        grid-row: 2/ 10;
-    }
-    .payment .Amazon{
-        display: grid;
-        text-align: center;
-        justify-content: center;
-    }
-    .payment .Amazon span{
-        font-weight: 100;
-        font-size: 18px;
-        text-align: center;
-        margin: 0 auto -10px auto;
-    }
-    .payment .Amazon img{
-        mix-blend-mode: darken;
-        height: 100px;
-        width: 100%;
-        margin: -1.5rem auto;
-        object-fit: cover;
-    }
-}
-@media screen and (min-width:401px) and (max-width:800px){
-    .parent{
-        padding: 1rem;
-    }
-}

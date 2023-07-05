@@ -10,6 +10,7 @@
     <title>Payment | Home</title>
     <!-- Link -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-mob.css" />
 </head>
 <body>
     <div class="parent">
@@ -20,7 +21,7 @@
             <!-- content -->
             <div class="content">
                 <!-- Form -->
-                <form action="">
+                <form>
                     <div class="title">
                         <h3>Payment Amount <br />
                             <span>
@@ -34,16 +35,16 @@
                         <img src="images/user.png" alt="Cardholder" />
                     </div>
                     <div class="imgInput">
-                        <input type="text" data-mask="0000 0000 0000 0000" placeholder="Card Number" required/>
+                        <input type="text" data-mask="0000 0000 0000 0000" placeholder="Card Number" maxlength="19" pattern="[0-9]{8,20}" required/>
                         <img src="images/credit-card.png" alt="Card Number" />
                     </div>
                     <div class="card">
                         <div class="imgInput">
-                            <input type="text" name="expiry-data"  placeholder="MM/YY" required/>
+                            <input type="text" name="expiry-data" data-mask="00/00" placeholder="MM/YY" pattern="[0-9]{4}" maxlength="4" required />
                             <img src="images/calendar.png" alt="expiry-data" />
                         </div>
                         <div class="imgInput">
-                            <input type="text" data-mask="000" placeholder="CVC" required />
+                            <input type="text" data-mask="000" placeholder="CVC" maxlength="3" pattern="[0-9]{3}" required />
                             <img src="images/padlock.png" alt="expiry-data" />
                         </div>
                     </div>
