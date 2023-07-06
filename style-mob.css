@@ -1,4 +1,9 @@
-@media screen and (max-width:400px){
+@media screen and (max-width:280px){
+    .payment .image img{
+        width: 200px !important;
+    }
+}
+@media screen and (min-width:201px) and (max-width:400px){
     .payment .image{
         display: flex;
         background-color: #000;
@@ -39,6 +44,12 @@
     .fail form{
         grid-gap: 1rem !important;
         /* padding: 3rem 1rem !important; */
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 520px){
+    .payment .image img{
+        width: 200px;
+        border-radius: 5px 5px 0 0;
     }
 }
 @media screen and (min-width:401px) and (max-width:800px){
